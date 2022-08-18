@@ -8,23 +8,49 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="headerBarLeft">
-        <a href=""> YYABB Logo </a>
-      </div>
-      <div class="headerBarCenter"></div>
-      <div class="headerBarRight">
-        <a href=""> Header Link 1 </a>
-        <a href=""> Header Link 2 </a>
-        <a href=""> Header Link 3 </a>
-      </div>
+    <div class="headerBar">
+      <header>
+        <svg
+          class="logo"
+          stroke="currentColor"
+          fill="currentColor"
+          stroke-width="0"
+          viewBox="0 0 512 512"
+          height="2em"
+          width="2em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M256.282 339.488zM64 32l34.946 403.219L255.767 480l157.259-44.85L448 32H64zm290.676 334.898l-98.607 28.125-98.458-28.248L150.864 289h48.253l3.433 39.562 53.586 15.163.132.273h.034l53.467-14.852L315.381 265H203l-4-50h120.646l4.396-51H140l-4-49h240.58l-21.904 251.898z"
+          ></path>
+        </svg>
+        <nav>
+          <ul class="navLinks">
+            <li><a href="">Header Link 1</a></li>
+            <li><a href="">Header Link 2</a></li>
+            <li><a href="">Header Link 3</a></li>
+          </ul>
+        </nav>
+        <a href="" class="cta">
+          <button>Contact</button>
+        </a>
+      </header>
+    </div>
 
+    <div class="headerMiddle">
       <div class="headerContent">
-        <h3>This website is awesome</h3>
-        <p>This Website has some subtext that goes here under the main title</p>
-        <img src="https://placehold.co/400x250" alt="Placeholder image" />
+        <h1>This website is awesome</h1>
+        <p>
+          This Website has some subtext that goes here under the main title. It
+          is a smaller font and the color is lower contrast
+        </p>
+        <a href="" class="signUp"><button>Sign Up</button></a>
+      </div>
+      <div class="headerImage">
+        <img src="https://placehold.co/350x200" alt="Placeholder image" />
       </div>
     </div>
+
     <div class="main">
       <div class="mainHeading">
         <h4>Some random information.</h4>
