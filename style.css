@@ -83,14 +83,14 @@ p.headerParagraph {
   padding: 10px 50px 15px 0;
   display: flex;
   justify-content: center;
-  background-color: #97AFB9;
+  background-color: #5798ac;
 }
 
 .mainImages {
   
   display: flex;
   justify-content: space-evenly;
-  background-color: #97AFB9 ;
+  background-color: #5798ac ;
   padding-bottom: 62px;
   padding: 0px 400px 50px 400px;
   
@@ -109,7 +109,7 @@ p.headerParagraph {
 }
 
 .mainBanner {
-  background-color: aliceblue;
+  background-color: #5798ac;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,7 +138,7 @@ h3.bannerQuote {
   display: flex;
   width: 800px;
   min-height: 150px;
-  background-color: #97AFB9;
+  background-color: #67a4c0;
   flex-wrap: wrap;
   border-radius: 10px;
   margin: 30px auto;
@@ -198,4 +198,13 @@ p.cardParagraph {
   width: 100px;
   justify-content: right;
   margin-right: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+  font-size: 12px;
 }
