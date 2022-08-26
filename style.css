@@ -51,6 +51,8 @@ button {
 
 button:hover {
   background-color: rgba(0, 136, 169, 0.8);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+
   
 }
 
@@ -61,10 +63,18 @@ button:hover {
   padding: 30px 10% 50px 0;
 }
 
-.headerMiddle h1, p {
+.headerMiddle h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: #edf0f1;
   padding: 0 50px 15px 0;
+  font-size: 30px;
+}
+
+p.headerParagraph {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #edf0f1ec;
+  padding: 0 50px 15px 0;
+  font-weight: 100;
 }
 
 .mainHeading h1  {
@@ -112,11 +122,80 @@ h1.bannerText {
   background-color: inherit;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 20px;
+  font-weight: 200;
+  font-size: 30px;
 }
 
 h3.bannerQuote {
   background-color: inherit;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 50px 5px;
+  padding: 25px 5px;
   margin: 0 10%;
+  font-weight: 100;
+}
+
+.mainCard {
+  display: flex;
+  width: 800px;
+  min-height: 150px;
+  background-color: #97AFB9;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin: 30px auto;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.45);
+  transition: all 0.2s;
+  justify-content: space-between;
+  
+}
+
+h2.cardTitle {
+  background-color: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+p.cardApply {
+  background-color: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 25px;
+}
+a.cardLink {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgba(0, 136, 169, 1);
+  transition: all 0.3s;
+}
+
+.mainCard:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+a.cardLink:hover {
+  background-color: rgb(1, 114, 143);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+p.cardParagraph {
+  background-color: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+.cardLeft, .cardRight {
+  background-color: inherit;
+  display: flex;
+}
+
+.cardLeft {
+  flex-direction: column;
+  width: auto;
+  margin-left: 20px;
+}
+
+.cardRight {
+  width: 100px;
+  justify-content: right;
+  margin-right: 20px;
 }
